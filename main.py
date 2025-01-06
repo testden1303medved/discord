@@ -19,6 +19,10 @@ API      = 'https://discord.com/api/v10'
 CID      = '1325710410619555961'
 REDIRECT = 'https://discord-qyly.onrender.com//api/discord/authorization'
 
+print(BOT)
+print(CSECRET)
+print(WEBHOOK)
+
 WHITELIST = [1325681966955237486, 1207101198369296434]
 
 def excode(code):
