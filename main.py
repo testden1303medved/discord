@@ -17,7 +17,7 @@ CSECRET  = os.environ.get('CSECRET')
 WEBHOOK  = os.environ.get('WEBHOOK')
 API      = 'https://discord.com/api/v10'
 CID      = '1325710410619555961'
-REDIRECT = 'http://127.0.0.1:8080/api/discord/authorization'
+REDIRECT = 'https://discord-qyly.onrender.com//api/discord/authorization'
 
 WHITELIST = [1325681966955237486, 1207101198369296434]
 
