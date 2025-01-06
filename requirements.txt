@@ -1,3 +1,4 @@
 py-cord
 requests
 pysondb
+flask
